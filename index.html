@@ -9,8 +9,8 @@
     <title>TheGem Coin OnePage</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <!-- <link href='https://fonts.googleapis.com/css?family=Podkova' rel='stylesheet'> -->
     <link href="https://fonts.googleapis.com/css2?family=Podkova:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 </head>
 
@@ -19,7 +19,7 @@
     <div class="container img">
 
         <!-- NavBar -->
-        <header id="page-header" class="page-header fixed">
+        <header class="page-header fixed">
             <nav>
                 <ul class="navlist">
                     <a href="">
@@ -37,12 +37,6 @@
                                     class="glyphicon glyphicon-search"></span></a></span>
                         </li>
                     </div>
-
-                    <!-- <div class="burger">
-                        <div class="line"></div>
-                        <div class="line"></div>
-                        <div class="line"></div>
-                    </div> -->
                 </ul>
             </nav>
         </header>
@@ -50,13 +44,14 @@
 
         <!-- Huge Heading -->
         <div class="margin" style="font-family: 'Podkova';">
-            <h1 class="big-heading">
+            <h1 class="animate__animated animate__backInDown big-heading">
                 Smart ICO
             </h1>
 
-            <h3>Cryptocurrency ICO Landing Page</h3>
+            <h3 class="animate__animated animate__backInLeft">
+                Cryptocurrency ICO Landing Page</h3>
             <p class="botton-border"></p>
-            <p class="para">
+            <p class="animate__animated animate__backInRight para">
                 A new smart blockchain based market place for trading </br>
                 a digital goods and assets according to users interests. </br>
                 Automatic matching of buyers and sellers via unique </br>
@@ -64,11 +59,11 @@
 
             <div class="btn-icon">
                 <div class="btn">
-                    <button class="btn-1">WHITE PAPER</button>
-                    <button class="btn-2">SHOW MORE SLIDES</button>
+                    <button class="animate__animated animate__flipInY btn-1">WHITE PAPER</button>
+                    <button class="animate__animated animate__flipInY btn-2">SHOW MORE SLIDES</button>
                 </div>
 
-                <div class="icon">
+                <div class="animate__animated animate__bounce icon">
                     <a href="#" class="fa fa-twitter"></a>
                     <a href="#" class="fa fa-facebook"></a>
                     <a href="#" class="fa fa-linkedin"></a>
@@ -100,7 +95,6 @@
                 <h2>4,208</h2>
                 <p>GemCoins Raised</p>
                 <h4>$125M</h4>
-                <!-- <span><p>Hardcap</p></span> -->
             </div>
         </div>
 
@@ -142,15 +136,31 @@
                 It is a first ever artificial </br>
                 intelligence marketplace in the world, combining traditional and smart contract, block chain, future
                 oriented ideas of </br> connecting people and performing operations by analyzing users preferences.
-
             </p>
+
         </div>
 
+        <!-- Contact -->
+        <section class="contact">
+            <div class="row">
+                <div class="text-center">
+                    <h1 class="title">Contact Us</h1>
+                    <p class="mb-5">
+                        We Are Always Waiting To Support Our Clients
+                    </p><br>
+
+                    <form action="" method="get">
+                        <input id="name" name="name" type="text" placeholder="Your Name" class="tm-input" required />
+                        <input id="email" name="email" type="email" placeholder="Your Email" class="tm-input"
+                            required />
+                        <textarea id="message" name="message" rows="8" placeholder="Message" class="tm-input"
+                            required></textarea>
+                        <button type="submit" class="submit-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
     </div>
-
-
-
-
 </body>
 
 </html>
